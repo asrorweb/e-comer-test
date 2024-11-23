@@ -2,16 +2,11 @@
 
 import { ProductType } from "@/interfaces/product.type";
 import React, { FC } from "react";
-import { FiMessageCircle } from "react-icons/fi";
 import { IoEyeOutline } from "react-icons/io5";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "./ui/card";
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "./ui/card";
 import OptimazeImage from "./image";
-import { BsCurrencyDollar } from "react-icons/bs";
 import { Button } from "./ui/button";
 import { CiShoppingBasket } from "react-icons/ci";
-import { DiscountStar } from "./ui/discount-star";
-import { TbPercentage } from "react-icons/tb";
-import DiscountPrice from "./discount-price";
 
 const ProductBlog: FC<{ product: ProductType }> = ({ product }) => {
   console.log(product);

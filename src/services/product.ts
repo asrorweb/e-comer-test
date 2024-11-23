@@ -1,5 +1,5 @@
 import { ProductType } from "@/interfaces/product.type";
-import { request, gql, GraphQLClient } from "graphql-request";
+import { gql, GraphQLClient } from "graphql-request";
 
 const API_URL = process.env.NEXT_HYGRAPH_ENDPOINT as string;
 
