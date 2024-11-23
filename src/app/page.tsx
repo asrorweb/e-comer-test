@@ -1,22 +1,7 @@
 import Hero from "@/components/hero";
-import ProductBlog from "@/components/product-blog";
 import { Button } from "@/components/ui/button";
-import { ProductType } from "@/interfaces/product.type";
-import { AllPosts, ProductService } from "@/services/product";
-import { useEffect, useState } from "react";
-import { HygraphClient } from "@/lib/client";
 import { createClient } from "@/utils/supabase/server";
-import { LensDemo } from "@/components/product-card";
-import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-
-// import "./styles.css";
-
-// import required modules
-import { Pagination } from "swiper/modules";
 import DemoSlider from "@/components/demo-slider";
 
 export default async function Home() {
